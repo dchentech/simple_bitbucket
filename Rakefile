@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "simple_bitbucket"
   gem.homepage = "http://github.com/mvj3/simple_bitbucket"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{simple bitbucket}
+  gem.description = %Q{simple bitbucket}
   gem.email = "mvjome@gmail.com"
   gem.authors = ["David Chen"]
   # dependencies defined in Gemfile
@@ -32,6 +32,7 @@ Rake::TestTask.new(:test) do |test|
   test.verbose = true
 end
 
+=begin
 require 'rcov/rcovtask'
 Rcov::RcovTask.new do |test|
   test.libs << 'test'
@@ -39,6 +40,7 @@ Rcov::RcovTask.new do |test|
   test.verbose = true
   test.rcov_opts << '--exclude "gems/*"'
 end
+=end
 
 task :default => :test
 

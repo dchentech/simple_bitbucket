@@ -1,9 +1,10 @@
 = simple_bitbucket
 
-Description goes here.
+* Define [Username, Email, Password] theses constants in Bitbucket module.
+* Use Bitbucket.create_and_sync(path_to_your_gitpath, your_project_name) to sync(create or update) to bitbucket.org.
 
 == Contributing to simple_bitbucket
- 
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
 * Fork the project.
@@ -14,6 +15,5 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2013 David Chen. See LICENSE.txt for
+Copyright (c) 2013 David Chen. at eoe.cn. See LICENSE.txt for
 further details.
-
